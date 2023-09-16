@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 150vh;
 }
 
 .contact-link {
@@ -46,11 +46,11 @@
   height: 2.5rem;
 }
 
-@media screen and (max-width: 1400px) {
+/* @media screen and (max-width: 1400px) {
   #contact {
     height: fit-content;
   }
-}
+} */
 
 @media screen and (max-width: 600px) {
   #contact {
