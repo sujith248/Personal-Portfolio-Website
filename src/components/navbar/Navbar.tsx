@@ -11,22 +11,30 @@ const Navbar: React.FC = () => {
         <div>
           <ul className='nav-links'>
             <li>
-              <a href='#about'>About</a>
+              <a href='#about' className='navbar-link'>
+                About
+              </a>
             </li>
             <li>
-              <a href='#experience'>Experience</a>
+              <a href='#experience' className='navbar-link'>
+                Experience
+              </a>
             </li>
             <li>
-              <a href='#projects'>Projects</a>
+              <a href='#projects' className='navbar-link'>
+                Projects
+              </a>
             </li>
             <li>
-              <a href='#contact'>Contact</a>
+              <a href='#contact' className='navbar-link'>
+                Contact
+              </a>
             </li>
           </ul>
         </div>
       </nav>
       <nav id='hamburger-nav'>
-        <div className='logo'>John Doe</div>
+        <div className='logo'>Sujith Dachepally</div>
         <div className='hamburger-menu'>
           <div
             className={`hamburger-icon ${toggleMenu && 'open'}`}
@@ -38,22 +46,38 @@ const Navbar: React.FC = () => {
           </div>
           <div className={`menu-links ${toggleMenu && 'open'}`}>
             <li>
-              <a href='#about' onClick={() => setToggleMenu(!toggleMenu)}>
+              <a
+                href='#about'
+                onClick={() => setToggleMenu(!toggleMenu)}
+                className='navbar-link'
+              >
                 About
               </a>
             </li>
             <li>
-              <a href='#experience' onClick={() => setToggleMenu(!toggleMenu)}>
+              <a
+                href='#experience'
+                onClick={() => setToggleMenu(!toggleMenu)}
+                className='navbar-link'
+              >
                 Experience
               </a>
             </li>
             <li>
-              <a href='#projects' onClick={() => setToggleMenu(!toggleMenu)}>
+              <a
+                href='#projects'
+                onClick={() => setToggleMenu(!toggleMenu)}
+                className='navbar-link'
+              >
                 Projects
               </a>
             </li>
             <li>
-              <a href='#contact' onClick={() => setToggleMenu(!toggleMenu)}>
+              <a
+                href='#contact'
+                onClick={() => setToggleMenu(!toggleMenu)}
+                className='navbar-link'
+              >
                 Contact
               </a>
             </li>
