@@ -5,6 +5,18 @@
   height: 80vh;
 }
 
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container {
+  display: flex;
+}
+
 .section__pic-container {
   display: flex;
   height: 400px;
