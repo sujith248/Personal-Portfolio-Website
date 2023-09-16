@@ -32,7 +32,7 @@ const Profile: React.FC = () => {
           <a href='https://www.linkedin.com/in/sujithdach/' target='_blank'>
             <img src={LinkedInImg} alt='My LinkedIn profile' className='icon' />
           </a>
-          <a href='https://github.com/248' target='_blank'>
+          <a href='https://github.com/sujith248' target='_blank'>
             <img src={GitHubImg} alt='My Github profile' className='icon' />
           </a>
         </div>
