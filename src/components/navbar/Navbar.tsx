@@ -20,11 +20,11 @@ const Navbar: React.FC = () => {
                 Experience
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='#projects' className='navbar-link'>
                 Projects
               </a>
-            </li>
+            </li> */}
             <li>
               <a href='#contact' className='navbar-link'>
                 Contact
@@ -63,15 +63,15 @@ const Navbar: React.FC = () => {
                 Experience
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href='#projects'
                 onClick={() => setToggleMenu(!toggleMenu)}
                 className='navbar-link'
               >
-                Projects
+                Projects(In progress...)
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 href='#contact'
