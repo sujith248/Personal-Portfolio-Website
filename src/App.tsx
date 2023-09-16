@@ -1,7 +1,8 @@
 import './App.css';
+import Navbar from './components/navbar/Navbar';
 
 function App() {
-  return <div>Personal Portfolio Website</div>;
+  return <Navbar />;
 }
 
 export default App;
