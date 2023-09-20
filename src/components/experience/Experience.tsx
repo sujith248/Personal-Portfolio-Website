@@ -167,6 +167,28 @@ const Experience: React.FC = () => {
                   className='icon'
                 />
                 <div>
+                  <h3>Dot Net</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src={CheckMarkIcon}
+                  alt='Experience icon'
+                  className='icon'
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src={CheckMarkIcon}
+                  alt='Experience icon'
+                  className='icon'
+                />
+                <div>
                   <h3>SQL</h3>
                   <p>Intermediate</p>
                 </div>
@@ -189,8 +211,8 @@ const Experience: React.FC = () => {
                   className='icon'
                 />
                 <div>
-                  <h3>Dot Net</h3>
-                  <p>Basic</p>
+                  <h3>Nest JS</h3>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -263,6 +285,17 @@ const Experience: React.FC = () => {
                 />
                 <div>
                   <h3>Terraform</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src={CheckMarkIcon}
+                  alt='Experience icon'
+                  className='icon'
+                />
+                <div>
+                  <h3>Storybook</h3>
                   <p>Basic</p>
                 </div>
               </article>
@@ -368,17 +401,6 @@ const Experience: React.FC = () => {
                 <div>
                   <h3>Confluence</h3>
                   <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src={CheckMarkIcon}
-                  alt='Experience icon'
-                  className='icon'
-                />
-                <div>
-                  <h3>Storybook</h3>
-                  <p>Basic</p>
                 </div>
               </article>
               <article>
