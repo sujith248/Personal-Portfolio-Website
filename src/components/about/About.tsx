@@ -32,7 +32,7 @@ const About: React.FC = () => {
               <img src={EducationIcon} alt='Education icon' className='icon' />
               <h3>Education</h3>
               <p>
-                Bachelors in Software Engineering, UTS (2023)
+                Bachelors of Engineering (Honours) - Software, UTS (2023)
                 <br />
                 UTS Dean's List of Engineering 2023
                 <br />
